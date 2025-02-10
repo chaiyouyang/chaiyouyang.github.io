@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VapingCation服务器EULA协议</title>
+    <style>
+        body {
+            font-family: 'SimSun', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        #eula-content {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #eula-content h2 {
+            color: #35424a;
+            text-align: center;
+        }
+        #eula-content p {
+            margin-bottom: 15px;
+            text-indent: 2em;
+        }
+        .buttons {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .buttons button {
+            background-color: #35424a;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 0 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .buttons button:hover {
+            background-color: #293238;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>VapingCation服务器EULA协议</h1>
+</header>
+<section id="eula-section">
+    <div class="container">
+        <div id="eula-content">
+            <h2>服务条款与条件</h2>
+            <p>通过访问和使用本Minecraft服务器，您同意以下条款和条件：</p>
+            <p><strong>1. 服务器为私人运营，若Mojang发布正版验证相关变更，EULA将随时调整。</strong></p>
+            <p><strong>2. 禁止商业活动/广告/贩卖账号，违反两次直接踢出，严重者永久黑名单。</strong></p>
+            <p><strong>3. 禁止刷屏，严重者禁言5分钟至30天。</strong></p>
+            <p><strong>4. 禁止发布不良内容，包括色情、违法视频/图片、辱骂他人等，违规者禁言或踢出。</strong></p>
+            <p><strong>5. 若因挑衅导致他人违规，挑衅者也将禁言1-3天。</strong></p>
+            <p><strong>6. 禁止发表非法言论，包括辱华、传播纳粹言论等。</strong></p>
+            <p><strong>7. 直连IP不得公开，否则承担全部责任并列入永久黑名单。</strong></p>
+            <p><strong>8. 服务器内部人员须遵守保密规定，违反者踢出，管理层不得二次申请。</strong></p>
+            <p><strong>9. 任何对服务器的攻击行为将导致永久黑名单，并追究法律责任。</strong></p>
+            <p><strong>10. 服务器或群内发生诈骗，官方概不负责。</strong></p>
+            <p><strong>11. 禁止使用多个小号进群。</strong></p>
+            <p><strong>12. 禁止攻击或破坏服务器稳定性。</strong></p>
+            <p><strong>13. 进入服务器即视为同意EULA，除非退出服务器和群聊。</strong></p>
+            <p><strong>14. 发现破坏游戏平衡的BUG请上报管理组，不得利用。</strong></p>
+            <p><strong>15. 禁止未经授权发布收款码，违者按诈骗处理，永久禁言或踢出。</strong></p>
+            <p><strong>16. EULA最后更新时间：2025.1.25（第8次更新）。</strong></p>
+        </div>
+        <div class="buttons">
+            <button onclick="acceptEula()">接受</button>
+            <button onclick="rejectEula()">拒绝</button>
+        </div>
+    </div>
+</section>
+<script>
+    function acceptEula() {
+        window.location.href = "../../index.html";
+    }
+    function rejectEula() {
+        alert('您已拒绝EULA协议。服务器访问被拒绝。');
+    }
+</script>
+</body>
+</html>
